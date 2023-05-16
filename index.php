@@ -12,25 +12,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto-Final</title>
+    <title>DecidamOS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
 </head>
 <body>
-    <div>
-        <form action="">
+    <div class="input-group justify-content-center alig-items-center">
+        <form action="create_persona.php" method="POST"><!-- metodo para crear -->
             <h1>Crear Persona</h1>
 
-            <input type="text" name="1er_Nombre" plasholder="1er_Nombre" >
-            <input type="text" name="2do_Nombre" plasholder="2do_Nombre">
-            <input type="text" name="1er_Apellido" plasholder="1er_Apellido">
-            <input type="text" name="2do_Apellido" plasholder="2do_Apellido">
-            <input type="number" name="CI" plasholder="CI">
-
-            <input type="submit" value="Crear">
+            <input type="text" name="1er_Nombre" placeholder="1er_Nombre"  class="form-control" >
+            <input type="text" name="2do_Nombre" placeholder="2do_Nombre"  class="form-control">
+            <input type="text" name="1er_Apellido" placeholder="1er_Apellido"  class="form-control">
+            <input type="text" name="2do_Apellido" placeholder="2do_Apellido"  class="form-control">
+            <input type="number" name="CI" placeholder="CI" class="form-control">
+            <div class="row w-100 align-items-center">
+    			<div class="col text-center">
+                <input type="submit" value="Crear" class="btn btn-warning regular-button">
+    			</div>	
+    		</div>
         </form>
     </div>
     <div>
         <h2>Personas</h2>
-        <table>
+        <table class="table">
             <thead>
                 <tr>
                     <th>ID</th>
