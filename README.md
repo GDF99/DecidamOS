@@ -21,3 +21,10 @@ Proyecto en desarrollo para la gestión del proceso electoral cubano.Es un siste
 - JS 
 - PHP 
 - MySql
+
+## :technologist:Desarrolladores
+- Laura
+- Gabriel
+- 
+-
+
