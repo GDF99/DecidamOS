@@ -25,6 +25,6 @@ Proyecto en desarrollo para la gestión del proceso electoral cubano.Es un siste
 ## :technologist:Desarrolladores
 - Laura
 - Gabriel
-- 
--
+- Jorge Luis
+- Alexey
 
